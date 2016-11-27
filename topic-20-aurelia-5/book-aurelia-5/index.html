@@ -388,7 +388,6 @@ export default class AsyncHttpClient {
 <p>An accompanying clear method:</p>
 <h2>src/services/async-http-client.js</h2>
 <pre><code>  clearAuthentication() {
-    localStorage.donation = null;
     this.http.configure(configuration =&gt; {
       configuration.withHeader(&#39;Authorization&#39;, &#39;&#39;);
     });
